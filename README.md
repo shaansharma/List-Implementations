@@ -24,16 +24,41 @@ bool remove(int num); //O(n)
 ```
 ###Usage:
 ```c++
+myList = Vector();
+```
+```c++
 myList = new Vector;
+...
+delete myList;
 ```
 ##Unsorted Linked List
 Inherites from List
+###Method Runtimes:
+```c++
+int at(int index); //O(n)
+int first(); //O(1)
+int last(); //O(1)
+int size(); //O(1)
+void add(int num); //O(1)
+int find(int num); //O(n)
+bool remove(int num); //O(n)
+```
 ###Usage:
 ```c++
 myList = new UnsortedList;
 ```
 ##Sorted Linked List
 Inherites from List
+###Method Runtimes:
+```c++
+int at(int index); //O(n)
+int first(); //O(1)
+int last(); //O(1)
+int size(); //O(1)
+void add(int num); //O(n)
+int find(int num); //O(n)
+bool remove(int num); //O(n)
+```
 ###Usage:
 ```c++
 myList = new SortedList;
