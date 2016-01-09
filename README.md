@@ -9,6 +9,7 @@ int size() //returns the size of the list
 void add(int num) //adds num to list
 int find(int num) //returns first index of num, otherwise -1
 bool remove(int num) //removes first occurence of num
+```
 ##Vector
 Implemented as an array
 ###Usage:
