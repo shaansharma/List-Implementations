@@ -12,6 +12,16 @@ bool remove(int num); //removes first occurence of num
 ```
 ##Vector
 Implemented as an array
+###Method Runtimes:
+```c++
+int at(int index); //O(1)
+int first(); //O(1)
+int last(); //O(1)
+int size(); //O(1)
+void add(int num); //O(n) worst case, O(1) average case
+int find(int num); //O(n)
+bool remove(int num); //O(n)
+```
 ###Usage:
 ```c++
 myList = new Vector;
