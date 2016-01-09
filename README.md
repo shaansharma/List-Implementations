@@ -45,7 +45,12 @@ bool remove(int num); //O(n)
 ```
 ###Usage:
 ```c++
+myList = UnsortedList();
+```
+```c++
 myList = new UnsortedList;
+...
+delete myList;
 ```
 ##Sorted Linked List
 Inherites from List
@@ -61,5 +66,10 @@ bool remove(int num); //O(n)
 ```
 ###Usage:
 ```c++
+myList = SortedList();
+```
+```c++
 myList = new SortedList;
+...
+delete myList;
 ```
